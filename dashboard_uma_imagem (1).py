@@ -8,8 +8,8 @@ client = storage.Client.from_service_account_info(
     st.secrets["gcp_service_account"]
 )
 
-bucket_nome = "bucket-copa"
-arquivo = "imagens_jogadores/bra_2.jpg"
+bucket_nome = "bucket_copa_geovannaa"
+arquivo = "imagem_jogadores/bra_2.jpg"
 
 bucket = client.bucket(bucket_nome)
 blob = bucket.blob(arquivo)
